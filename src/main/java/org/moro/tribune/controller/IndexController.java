@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class IndexController {
 
+//   跳转首页
     @GetMapping("/")
     public String index(){
 
